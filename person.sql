@@ -33,4 +33,5 @@ VALUES (104, 'Reajul', 'Khulna'),
 -- Reading data from table
 SELECT * FROM person;
 
-SELECT
+-- Reading specific column data from table
+SELECT id, name from person;
